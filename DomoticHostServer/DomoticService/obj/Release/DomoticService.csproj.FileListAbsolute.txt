@@ -1,0 +1,10 @@
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe.config
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.pdb
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticHostServer.dll
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticHostServer.pdb
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\obj\Release\DomoticService.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\obj\Release\DomoticService.ProjectInstaller.resources
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\obj\Release\DomoticService.csproj.GenerateResource.Cache
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\obj\Release\DomoticService.exe
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\obj\Release\DomoticService.pdb
