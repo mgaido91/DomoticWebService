@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="domoticConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="domoticConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DomoticHostServer.Properties.Settings.GlobalReference.Default.domoticConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="domoticConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="domoticConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DomoticHostServer.Properties.Settings.GlobalReference.Default.domoticConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="temperatureTableAdapter" GeneratorDataComponentClassName="temperatureTableAdapter" Name="temperature" UserDataComponentName="temperatureTableAdapter">
@@ -74,7 +74,7 @@ SELECT time, value FROM temperature WHERE (time = @time)</CommandText>
   <xs:element name="DomoticDAO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DomoticDAO" msprop:Generator_UserDSName="DomoticDAO">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="temperature" msprop:Generator_TableClassName="temperatureDataTable" msprop:Generator_TableVarName="tabletemperature" msprop:Generator_TablePropName="temperature" msprop:Generator_RowDeletingName="temperatureRowDeleting" msprop:Generator_RowChangingName="temperatureRowChanging" msprop:Generator_RowEvHandlerName="temperatureRowChangeEventHandler" msprop:Generator_RowDeletedName="temperatureRowDeleted" msprop:Generator_UserTableName="temperature" msprop:Generator_RowChangedName="temperatureRowChanged" msprop:Generator_RowEvArgName="temperatureRowChangeEvent" msprop:Generator_RowClassName="temperatureRow">
+        <xs:element name="temperature" msprop:Generator_TableClassName="temperatureDataTable" msprop:Generator_TableVarName="tabletemperature" msprop:Generator_RowChangedName="temperatureRowChanged" msprop:Generator_TablePropName="temperature" msprop:Generator_RowDeletingName="temperatureRowDeleting" msprop:Generator_RowChangingName="temperatureRowChanging" msprop:Generator_RowEvHandlerName="temperatureRowChangeEventHandler" msprop:Generator_RowDeletedName="temperatureRowDeleted" msprop:Generator_RowClassName="temperatureRow" msprop:Generator_UserTableName="temperature" msprop:Generator_RowEvArgName="temperatureRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="time" msprop:Generator_ColumnVarNameInTable="columntime" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnPropNameInTable="timeColumn" msprop:Generator_UserColumnName="time" type="xs:dateTime" />

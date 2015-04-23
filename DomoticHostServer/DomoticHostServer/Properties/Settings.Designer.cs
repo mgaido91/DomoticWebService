@@ -26,7 +26,8 @@ namespace DomoticHostServer.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MARCO-WIN8WM;Initial Catalog=domotic;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MARCO-WIN8WM;Initial Catalog=domotic;Persist Security Info=True;User " +
+            "ID=domotic_user;Password=domotic")]
         public string domoticConnectionString {
             get {
                 return ((string)(this["domoticConnectionString"]));

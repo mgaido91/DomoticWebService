@@ -1,5 +1,5 @@
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticHostServer\bin\Release\DomoticHostServer.dll
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticHostServer\bin\Release\DomoticHostServer.pdb
-C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticHostServer\obj\Release\DomoticHostServer.csprojResolveAssemblyReference.cache
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticHostServer\obj\Release\DomoticHostServer.dll
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticHostServer\obj\Release\DomoticHostServer.pdb
+C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticHostServer\bin\Release\DomoticHostServer.dll.config

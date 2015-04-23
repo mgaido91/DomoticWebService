@@ -13,32 +13,27 @@ namespace DomoticHostServer
     public interface IDomoticService
     {
         [OperationContract]
-        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.Bare,
-            UriTemplate = "insert/{dataType}")]
-        void insertValue(string dataType, double value);
+        string insertValue(string dataType, ValueType value);
+
+        [OperationContract]
+        ValueType debug();
+
+        [OperationContract]
+        ValueType echo(ValueType item);
     }
 
     // Per aggiungere tipi compositi alle operazioni del servizio utilizzare un contratto di dati come descritto nell'esempio seguente.
     // È possibile aggiungere file XSD nel progetto. Dopo la compilazione del progetto è possibile utilizzare direttamente i tipi di dati definiti qui con lo spazio dei nomi "DomoticHostServer.ContractType".
-    //[DataContract]
-   /* public class CompositeType
+    [DataContract]
+    public class ValueType
     {
-        bool boolValue = true;
-        string stringValue = "Hello ";
-
         [DataMember]
-        public bool BoolValue
+        public double Value
         {
-            get { return boolValue; }
-            set { boolValue = value; }
+            get;
+            set;
         }
 
-        [DataMember]
-        public string StringValue
-        {
-            get { return stringValue; }
-            set { stringValue = value; }
-        }
     }
-    * */
+    
 }
