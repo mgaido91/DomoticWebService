@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
@@ -15,11 +16,21 @@ namespace DomoticHostServer
         [OperationContract]
         string insertValue(string dataType, ValueType value);
 
-        [OperationContract]
-        ValueType debug();
 
         [OperationContract]
-        ValueType echo(ValueType item);
+        WebSiteResponse<double> getTemperatureValues(string period);
+
+
+        [OperationContract]
+        WebSiteResponse<bool> getLightStatus(string option);
+
+        [OperationContract]
+        WebSiteResponse<double> getLuminosity();
+
+        [OperationContract]
+        void changeLightState(Stream input);
+
+
     }
 
     // Per aggiungere tipi compositi alle operazioni del servizio utilizzare un contratto di dati come descritto nell'esempio seguente.
@@ -35,5 +46,34 @@ namespace DomoticHostServer
         }
 
     }
+
+    [DataContract]
+    public class Record<T> {
+
+        [DataMember(Name="date", IsRequired=false)]
+        public string date{get;set;}
+
+        [DataMember(Name="value", IsRequired=true)]
+        public T value { get; set; }
+
+        public Record(T v, string d)
+        {
+            this.value = v;
+            this.date = d;
+        }
+        
+    }
+
+    [DataContract]
+    public class WebSiteResponse<T> {
+
+        [DataMember(Name = "record")]
+        public List<Record<T>> record { get; set; }
+        
+    }
+
+
+
+
     
 }

@@ -894,3 +894,358 @@ I parametri interessati sono:
    logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
    assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
    logtoconsole = 
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+Avviso: l'origine DomoticService non è registrata nel computer locale.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Si è verificata un'eccezione durante la disinstallazione del programma di installazione di System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: Il servizio specificato non esiste come servizio installato
+Si è verificata un'eccezione durante la disinstallazione. L'eccezione verrà ignorata e la disinstallazione continuerà, tuttavia è possibile che l'applicazione non venga disinstallata completamente al termine dell'operazione.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+Avviso: l'origine DomoticService non è registrata nel computer locale.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Si è verificata un'eccezione durante la disinstallazione del programma di installazione di System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: Il servizio specificato non esiste come servizio installato
+Si è verificata un'eccezione durante la disinstallazione. L'eccezione verrà ignorata e la disinstallazione continuerà, tuttavia è possibile che l'applicazione non venga disinstallata completamente al termine dell'operazione.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Tentativo di arresto del servizio DomoticService.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Ripristino dello stato precedente dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Ripristino del log eventi allo stato precedente per l'origine DomoticService.
+Si è verificata un'eccezione durante la fase di ripristino dello stato precedente del programma di installazione di System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Origine non trovata, ma non è stato possibile eseguire la ricerca in uno o più log eventi. Log non accessibili: Security.
+Si è verificata un'eccezione durante la fase di ripristino dello stato precedente. L'eccezione verrà ignorata e il ripristino dello stato precedente continuerà, tuttavia è possibile che non venga completamente ripristinato lo stato precedente l'installazione al termine dell'operazione.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 

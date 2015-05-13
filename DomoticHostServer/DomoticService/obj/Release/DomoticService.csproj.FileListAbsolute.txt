@@ -8,3 +8,13 @@ C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticSe
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\obj\Release\DomoticService.csproj.GenerateResource.Cache
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\obj\Release\DomoticService.exe
 C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\obj\Release\DomoticService.pdb
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe.config
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\bin\Release\DomoticService.pdb
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\bin\Release\DomoticHostServer.dll
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\bin\Release\DomoticHostServer.pdb
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\obj\Release\DomoticService.csprojResolveAssemblyReference.cache
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\obj\Release\DomoticService.ProjectInstaller.resources
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\obj\Release\DomoticService.csproj.GenerateResource.Cache
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\obj\Release\DomoticService.exe
+\\VBOXSVR\Win8Share\Domotic\DomoticHostWebService\DomoticWebService\DomoticHostServer\DomoticService\obj\Release\DomoticService.pdb
