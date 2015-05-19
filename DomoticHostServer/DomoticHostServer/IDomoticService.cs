@@ -30,6 +30,11 @@ namespace DomoticHostServer
         [OperationContract]
         void changeLightState(Stream input);
 
+        [OperationContract]
+        WebSiteResponse<bool> getPresence(string period);
+
+
+
 
     }
 

@@ -1249,3 +1249,27 @@ I parametri interessati sono:
    logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
    assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
    logtoconsole = 
+Disinstallazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   logtoconsole = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+Rimozione dell'origine di EventLog DomoticService.
+È in corso la rimozione del servizio DomoticService dal sistema...
+Rimozione del servizio DomoticService dal sistema completata.
+Tentativo di arresto del servizio DomoticService.
+Installazione dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 
+Installazione del servizio DomoticService in corso...
+Installazione di DomoticService completata.
+È in corso la creazione dell'origine di EventLog DomoticService nel log Application...
+Commit dell'assembly 'C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe' in corso...
+I parametri interessati sono:
+   i = 
+   logfile = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.InstallLog
+   assemblypath = C:\Users\Marco\Documents\Visual Studio 2012\Projects\DomoticHostServer\DomoticService\bin\Release\DomoticService.exe
+   logtoconsole = 

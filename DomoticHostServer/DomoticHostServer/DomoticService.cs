@@ -52,6 +52,30 @@ namespace DomoticHostServer
                         return e.Message;
                     }
                     break;
+                case "light":
+                    try
+                    {
+                        DomoticDAOTableAdapters.lightTableAdapter adapter =
+                            new DomoticDAOTableAdapters.lightTableAdapter();
+                        adapter.InsertValue(value.Value == 0 ? false : true);
+                    }
+                    catch (Exception e)
+                    {
+                        return e.Message;
+                    }
+                    break;
+                case "presence":
+                    try
+                    {
+                        DomoticDAOTableAdapters.presenceTableAdapter adapter =
+                            new DomoticDAOTableAdapters.presenceTableAdapter();
+                        adapter.InsertValue(value.Value == 0 ? false : true);
+                    }
+                    catch (Exception e)
+                    {
+                        return e.Message;
+                    }
+                    break;
                 default:
 
                     return "KO";
@@ -79,7 +103,7 @@ namespace DomoticHostServer
                     }
                     response.record = res;
                     break;
-                case "12_HOUR":
+                case "TWELVE_HOUR":
                     DomoticDAOTableAdapters.TemperatureByHoursTableAdapter qAdapter =
                             new DomoticDAOTableAdapters.TemperatureByHoursTableAdapter();
                     DomoticDAO.TemperatureByHoursDataTable means12=qAdapter.GetDataOverLast(12);
@@ -92,7 +116,7 @@ namespace DomoticHostServer
                     }
                     response.record = res12;
                     break;
-                case "24_HOUR":
+                case "TWENTYFOUR_HOUR":
                     DomoticDAOTableAdapters.TemperatureByHoursTableAdapter tAdapter =
                             new DomoticDAOTableAdapters.TemperatureByHoursTableAdapter();
                     DomoticDAO.TemperatureByHoursDataTable means24=tAdapter.GetDataOverLast(24);
@@ -132,7 +156,7 @@ namespace DomoticHostServer
             WebSiteResponse<bool> response = new WebSiteResponse<bool>();
             List<Record<bool>> result = new List<Record<bool>>();
             switch (option) {
-                case "isTurnedOn":
+                case "status":
                     DomoticDAOTableAdapters.lightTableAdapter adapter =
                         new DomoticDAOTableAdapters.lightTableAdapter();
                     DomoticDAO.lightDataTable last =  adapter.GetLastDatum();
@@ -144,7 +168,7 @@ namespace DomoticHostServer
                         result.Add(new Record<Boolean>(false, null));
                     }
                     break;
-                case "isSetAutomaticManagment":
+                case "automatic":
                     result.Add(new Record<Boolean>(AutomaticLightsState, null));
                     break;
                 default:
@@ -173,15 +197,15 @@ namespace DomoticHostServer
         }
 
         [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
-            UriTemplate = "light/changeLightState")]
+            UriTemplate = "light/status")]
         public void changeLightState(Stream input) {
             NameValueCollection nvc = parseFormString(input);
             switch (nvc["action"]) { 
-                case "TURN_ON":
+                case "ON":
                     if (sendRequestToBoard("PUT", "lights/on", null) != "\"OK\"")
                         throw new WebFaultException(System.Net.HttpStatusCode.ServiceUnavailable);
                     break;
-                case "TURN_OFF":
+                case "OFF":
                     if (sendRequestToBoard("PUT", "lights/off", null) != "\"OK\"")
                         throw new WebFaultException(System.Net.HttpStatusCode.ServiceUnavailable);
                     break;
@@ -191,6 +215,71 @@ namespace DomoticHostServer
             }
         
         }
+
+        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "presence?period={period}")]
+        public WebSiteResponse<bool> getPresence(string period)
+        {
+            WebSiteResponse<bool> resp = new WebSiteResponse<bool>();
+            DomoticDAOTableAdapters.presenceTableAdapter adapter = new DomoticDAOTableAdapters.presenceTableAdapter();
+
+            switch(period){
+                case "LAST":
+                    DomoticDAO.presenceDataTable e = adapter.GetLastDatum();
+                
+                    if (e.Count > 0)
+                    {
+                        string date = e.ElementAt(0).time.ToString("o");
+                        resp.record.Add(new Record<bool>(e.ElementAt(0).presence,
+                            date.Substring(0, date.Length - 4) + "Z"));
+                    }
+                break;
+                case "TWELVE_HOUR":
+                    DomoticDAO.presenceDataTable rows = adapter.GetDataInLastHours(12);
+
+                    for (int i = 0; i < rows.Count;i++ )
+                    {
+
+                        string date = rows.ElementAt(i).time.ToString("o");
+                        resp.record.Add(new Record<bool>(rows.ElementAt(i).presence,
+                            date.Substring(0, date.Length - 4) + "Z"));
+                    }
+                    break;
+                case "TWENTYFOUR_HOUR":
+                    DomoticDAO.presenceDataTable rows1 = adapter.GetDataInLastHours(24);
+
+                    for (int i = 0; i < rows1.Count; i++)
+                    {
+
+                        string date = rows1.ElementAt(i).time.ToString("o");
+                        resp.record.Add(new Record<bool>(rows1.ElementAt(i).presence,
+                            date.Substring(0, date.Length - 4) + "Z"));
+                    }
+                    break;
+                case "LAST_WEEK":
+                    DomoticDAO.presenceDataTable rows2 = adapter.GetDataInLastHours(24*7);
+
+                    for (int i = 0; i < rows2.Count; i++)
+                    {
+
+                        string date = rows2.ElementAt(i).time.ToString("o");
+                        resp.record.Add(new Record<bool>(rows2.ElementAt(i).presence,
+                            date.Substring(0, date.Length - 4) + "Z"));
+                    }
+                    break;
+
+                default:
+                    throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
+
+
+            }
+            return resp;
+        }
+
+
+
+
+
 
         private string sendRequestToBoard(string method, string uri, Dictionary<string, string> parameters)
         {
