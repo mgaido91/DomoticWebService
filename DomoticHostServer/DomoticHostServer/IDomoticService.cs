@@ -25,10 +25,22 @@ namespace DomoticHostServer
         WebSiteResponse<bool> getLightStatus(string option);
 
         [OperationContract]
+        WebSiteResponse<bool> getHeatherStatus(string option);
+
+        [OperationContract]
         WebSiteResponse<double> getLuminosity();
 
         [OperationContract]
         void changeLightState(Stream input);
+
+        [OperationContract]
+        void changeHeatherState(Stream input);
+
+        [OperationContract]
+        void changeHeatherAutomatic(Stream input);
+
+        [OperationContract]
+        void changeLightAutomatic(Stream input);
 
         [OperationContract]
         WebSiteResponse<bool> getPresence(string period);

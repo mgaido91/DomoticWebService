@@ -20,7 +20,8 @@ namespace DomoticHostServer
 
         static string endpoint_board = "http://192.168.1.202:80/";
         
-        private static Boolean AutomaticLightsState = false;
+        private static Boolean AutomaticLightsState = true;
+        private static Boolean AutomaticHeatherState = true;
         
         [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json,
             ResponseFormat = WebMessageFormat.Json,
@@ -70,6 +71,36 @@ namespace DomoticHostServer
                         DomoticDAOTableAdapters.presenceTableAdapter adapter =
                             new DomoticDAOTableAdapters.presenceTableAdapter();
                         adapter.InsertValue(value.Value == 0 ? false : true);
+                    }
+                    catch (Exception e)
+                    {
+                        return e.Message;
+                    }
+                    break;
+                case "heather":
+                    try
+                    {
+                        DomoticDAOTableAdapters.heatherTableAdapter adapter =
+                            new DomoticDAOTableAdapters.heatherTableAdapter();
+                        adapter.InsertValue(value.Value == 0 ? false : true);
+                    }
+                    catch (Exception e) {
+                        return e.Message;
+                    }
+                    break;
+                case "automatic_light":
+                    try
+                    {
+                        AutomaticLightsState = value.Value == 0 ? false : true;
+                    }
+                    catch (Exception e) {
+                        return e.Message;
+                    }
+                    break;
+                case "automatic_heather":
+                    try
+                    {
+                        AutomaticHeatherState = value.Value == 0 ? false : true;
                     }
                     catch (Exception e)
                     {
@@ -180,6 +211,41 @@ namespace DomoticHostServer
             return response;
         }
 
+        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "heather/{option}")]
+        public WebSiteResponse<bool> getHeatherStatus(string option)
+        {
+            WebSiteResponse<bool> response = new WebSiteResponse<bool>();
+            List<Record<bool>> result = new List<Record<bool>>();
+            switch (option)
+            {
+                case "status":
+                    DomoticDAOTableAdapters.heatherTableAdapter adapter =
+                        new DomoticDAOTableAdapters.heatherTableAdapter();
+                    DomoticDAO.heatherDataTable last = adapter.GetLastDatum();
+                    if (last.Count > 0)
+                    {
+                        string date = last.ElementAt(0).time.ToString("o");
+                        result.Add(new Record<bool>(last.ElementAt(0).turned_on, date.Substring(0, date.Length - 4) + "Z"));
+
+                    }
+                    else
+                    {
+                        result.Add(new Record<Boolean>(false, null));
+                    }
+                    break;
+                case "automatic":
+                    result.Add(new Record<Boolean>(AutomaticHeatherState, null));
+                    break;
+                default:
+                    throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
+
+
+            }
+            response.record = result;
+            return response;
+        }
+
 
         [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json,
             UriTemplate = "luminosity")]
@@ -214,6 +280,73 @@ namespace DomoticHostServer
             
             }
         
+        }
+
+        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
+            UriTemplate = "heather/status")]
+        public void changeHeatherState(Stream input)
+        {
+            NameValueCollection nvc = parseFormString(input);
+            switch (nvc["action"])
+            {
+                case "ON":
+                    if (sendRequestToBoard("PUT", "heather/on", null) != "\"OK\"")
+                        throw new WebFaultException(System.Net.HttpStatusCode.ServiceUnavailable);
+                    break;
+                case "OFF":
+                    if (sendRequestToBoard("PUT", "heather/off", null) != "\"OK\"")
+                        throw new WebFaultException(System.Net.HttpStatusCode.ServiceUnavailable);
+                    break;
+                default:
+                    throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
+
+            }
+
+        }
+
+
+        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
+            UriTemplate = "light/automatic")]
+        public void changeLightAutomatic(Stream input)
+        {
+            NameValueCollection nvc = parseFormString(input);
+            switch (nvc["action"])
+            {
+                case "ON":
+                    if (sendRequestToBoard("PUT", "automatic_light/on", null) != "\"OK\"")
+                        throw new WebFaultException(System.Net.HttpStatusCode.ServiceUnavailable);
+                    break;
+                case "OFF":
+                    if (sendRequestToBoard("PUT", "automatic_light/off", null) != "\"OK\"")
+                        throw new WebFaultException(System.Net.HttpStatusCode.ServiceUnavailable);
+                    break;
+                default:
+                    throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
+
+            }
+
+        }
+
+        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
+            UriTemplate = "heather/automatic")]
+        public void changeHeatherAutomatic(Stream input)
+        {
+            NameValueCollection nvc = parseFormString(input);
+            switch (nvc["action"])
+            {
+                case "ON":
+                    if (sendRequestToBoard("PUT", "automatic_heather/on", null) != "\"OK\"")
+                        throw new WebFaultException(System.Net.HttpStatusCode.ServiceUnavailable);
+                    break;
+                case "OFF":
+                    if (sendRequestToBoard("PUT", "automatic_heather/off", null) != "\"OK\"")
+                        throw new WebFaultException(System.Net.HttpStatusCode.ServiceUnavailable);
+                    break;
+                default:
+                    throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
+
+            }
+
         }
 
         [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json,
