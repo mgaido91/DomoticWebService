@@ -262,7 +262,7 @@ namespace DomoticHostServer
             return resp;
         }
 
-        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
+        [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "light/status")]
         public WebSiteResponse<bool> changeLightState(Stream input)
         {
@@ -287,7 +287,7 @@ namespace DomoticHostServer
             return resp;
         }
 
-        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
+        [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "heather/status")]
         public WebSiteResponse<bool> changeHeatherState(Stream input)
         {
@@ -315,7 +315,7 @@ namespace DomoticHostServer
         }
 
 
-        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
+        [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "light/automatic")]
         public WebSiteResponse<bool> changeLightAutomatic(Stream input)
         {
@@ -342,7 +342,7 @@ namespace DomoticHostServer
 
         }
 
-        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
+        [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "heather/automatic")]
         public WebSiteResponse<bool> changeHeatherAutomatic(Stream input)
         {
