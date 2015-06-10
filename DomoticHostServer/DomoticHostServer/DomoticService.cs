@@ -264,7 +264,8 @@ namespace DomoticHostServer
 
         [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "light/status")]
-        public void changeLightState(Stream input) {
+        public WebSiteResponse<bool> changeLightState(Stream input)
+        {
             NameValueCollection nvc = parseFormString(input);
             switch (nvc["action"]) { 
                 case "ON":
@@ -279,12 +280,16 @@ namespace DomoticHostServer
                     throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
             
             }
-        
+            WebSiteResponse<bool> resp = new WebSiteResponse<bool>();
+            List<Record<bool>> result = new List<Record<bool>>();
+            result.Add(new Record<bool>(true, null));
+            resp.record = result;
+            return resp;
         }
 
         [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "heather/status")]
-        public void changeHeatherState(Stream input)
+        public WebSiteResponse<bool> changeHeatherState(Stream input)
         {
             NameValueCollection nvc = parseFormString(input);
             switch (nvc["action"])
@@ -301,13 +306,18 @@ namespace DomoticHostServer
                     throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
 
             }
+            WebSiteResponse<bool> resp = new WebSiteResponse<bool>();
+            List<Record<bool>> result = new List<Record<bool>>();
+            result.Add(new Record<bool>(true, null));
+            resp.record = result;
+            return resp;
 
         }
 
 
         [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "light/automatic")]
-        public void changeLightAutomatic(Stream input)
+        public WebSiteResponse<bool> changeLightAutomatic(Stream input)
         {
             NameValueCollection nvc = parseFormString(input);
             switch (nvc["action"])
@@ -324,12 +334,17 @@ namespace DomoticHostServer
                     throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
 
             }
+            WebSiteResponse<bool> resp = new WebSiteResponse<bool>();
+            List<Record<bool>> result = new List<Record<bool>>();
+            result.Add(new Record<bool>(true, null));
+            resp.record = result;
+            return resp;
 
         }
 
         [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "heather/automatic")]
-        public void changeHeatherAutomatic(Stream input)
+        public WebSiteResponse<bool> changeHeatherAutomatic(Stream input)
         {
             NameValueCollection nvc = parseFormString(input);
             switch (nvc["action"])
@@ -346,6 +361,11 @@ namespace DomoticHostServer
                     throw new WebFaultException(System.Net.HttpStatusCode.BadRequest);
 
             }
+            WebSiteResponse<bool> resp = new WebSiteResponse<bool>();
+            List<Record<bool>> result = new List<Record<bool>>();
+            result.Add(new Record<bool>(true, null));
+            resp.record = result;
+            return resp;
 
         }
 
